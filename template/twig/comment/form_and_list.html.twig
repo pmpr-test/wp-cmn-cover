@@ -1,0 +1,5 @@
+<div class="comments-container" data-object="{{ object_id|esc_attr }}" id="comments_container">
+    <h2 class="sr-only">{{ title|raw }}</h2>
+    {{ (comment_form ~ comment_list ~ loading_spinner)|raw }}
+</div>
+

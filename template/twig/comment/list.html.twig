@@ -1,0 +1,11 @@
+<span class="comments-count">{{ count|number|raw }}</span>
+{{ title|raw }}
+{% if not has_comment %}
+    <p class="empty-message">{{ empty_message|raw }}</p>
+{% endif -%}
+<ul id="comment_list" class="comments-list {% if not has_comment %} done{% endif %}">
+    {% if has_comment %}
+        {{ comments|raw }}
+    {% endif %}
+</ul>
+{{ pagination|raw }}

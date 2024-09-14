@@ -1,0 +1,9 @@
+{% if pages > 1 %}
+    <ul class="page-numbers">
+        {% for page in pages %}
+            <li>
+                <a href=""><span>{{ page|number }}</span></a>
+            </li>
+        {% endfor %}
+    </ul>
+{% endif %}

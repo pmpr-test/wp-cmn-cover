@@ -1,0 +1,18 @@
+<li class="comment-list-item{% if depth > 1 %} comment-child{% endif %}"
+    id="comment-{{ id }}" data-page="{{ page }}">
+    <article data-id="{{ id|esc_attr }}" {{ comment_class(['comment-article'], id) }}>
+        {{ get_avatar(comment, avatar_size, {class: 'comment-avatar'})|raw }}
+        <div id="comment-{{ id|esc_attr }}-content" class="comment-content">
+            <span class="comment-author">{{ get_comment_author(id)|raw }}</span>
+            {{ get_comment_reply_link({depth: depth,max_depth: max_depth,reply_text: 'reply'}, comment, post)|raw }}
+            {% if not comment.comment_approved %}
+                <div class="not-approve-message">{{ args.comment_waiting_text|raw }}</div>
+            {% else %}
+                <time class="comment-date" datetime="{{ comment.comment_date|date('Y-m-d H:i')|esc_attr }}">
+                    {{ time_mask|format(get_comment_date()|datetime, get_comment_time()|datetime)|raw }}
+                </time>
+            {% endif %}
+            <p class="comment-text">{{ text|raw }}</p>
+        </div>
+    </article>
+

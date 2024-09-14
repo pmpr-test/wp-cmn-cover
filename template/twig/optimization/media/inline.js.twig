@@ -1,0 +1,37 @@
+(function () {
+    var nativeLazyLoadInitialize = function () {
+        var lazyElements, script, classname = '{{ class|raw }}';
+        if ('loading' in HTMLImageElement.prototype) {
+
+            lazyElements = [].slice.call(document.querySelectorAll(`.${classname}`));
+
+            lazyElements.forEach(function (element) {
+                if (!element.dataset.src) {
+                    return;
+                }
+                element.src = element.dataset.src;
+                delete element.dataset.src;
+                if (element.dataset.srcset) {
+
+                    element.srcset = element.dataset.srcset;
+                    delete element.dataset.srcset;
+                }
+                if (element.dataset.sizes) {
+
+                    element.sizes = element.dataset.sizes;
+                    delete element.dataset.sizes;
+                }
+                element.classList.remove(classname);
+            });
+        }
+    };
+    if (document.readyState === 'complete'
+        || document.readyState === 'interactive') {
+
+        nativeLazyLoadInitialize();
+    } else {
+
+        window.addEventListener('DOMContentLoaded', nativeLazyLoadInitialize);
+    }
+}());
+

@@ -1,0 +1,9 @@
+{% set page = page|default(1) %}
+{% set element = is_current or page == '...' ? 'span' : 'a' %}
+<li class="page-item{% if is_current %} active{% endif %}">
+    <{{ element }} class="page-link" href="#" data-page="{{ page|esc_attr }}">{{ page == '...' ? page : label|esc_html }}</{{ element }}>
+{% if is_current %}
+    <span class="sr-only">{{ __('Current', 'boilerplate') }}</span>
+{% endif %}
+</li>
+

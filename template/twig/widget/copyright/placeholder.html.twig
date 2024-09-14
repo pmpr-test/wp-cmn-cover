@@ -1,0 +1,9 @@
+{% if name == 'name_as_link' %}
+    <a href="{{ home_url() }}">{{ value|raw }}</a>
+{% elseif name == 'start_date'
+    or name == 'end_date' %}
+    <time datetime="{{ value|date('Y') }}">{{ value|datetime('Y') }}</time>
+{% else %}
+    {{ value|raw }}
+{% endif %}
+

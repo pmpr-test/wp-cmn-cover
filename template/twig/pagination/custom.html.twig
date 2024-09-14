@@ -1,0 +1,14 @@
+{% set current = current|default(1) %}
+{% if pages is defined and pages > 1 %}
+    <nav id="{{ id|default('pagination')|esc_attr }}" class="d-flex justify-content-center my-5"
+         aria-label="{{ pagination_label|raw }}">
+        <ul class="page-numbers pagination m-0">
+            {% for label, page in pages %}
+                {% include get_template('custom_item', _self) with {
+                    is_current: page == current
+                } %}
+            {% endfor %}
+        </ul>
+    </nav>
+{% endif %}
+
