@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             66e5ebd411ad3             |
+    |             66eae189491d0             |
     |_______________________________________|
 */
- namespace Pmpr\Common\Cover\Customize\Setting; class UserMeta extends Setting { }
+ namespace Pmpr\Common\Cover\PageBuilder; class PageBuilder extends Common { }
