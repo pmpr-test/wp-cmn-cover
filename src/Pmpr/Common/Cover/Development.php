@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             66fbd66b1d253             |
+    |             66fbd6cfc9458             |
     |_______________________________________|
 */
- namespace Pmpr\Common\Cover; use Pmpr\Common\Foundation\Frontend\Page; class Development extends Page { public function qiccuiwooiquycsg() { $this->myysgyqcumekoueo()->oyaugcgekomyiiik()->gswweykyogmsyawy(__("\x44\x65\x76\145\x6c\157\160\x20\x61\156\144\x20\104\x65\x73\151\x67\x6e", PR__CMN__COVER))->wegcaymyqqoyewmw("\x77\157\162\x64\160\162\x65\x73\163\x2d\167\145\x62\55\x64\145\163\151\x67\x6e\x2d\144\x65\x76\145\154\x6f\160\155\x65\x6e\164"); } }
+ namespace Pmpr\Common\Cover; use Pmpr\Common\Foundation\Frontend\Page; class Development extends Page { public function qiccuiwooiquycsg() { $this->myysgyqcumekoueo()->oyaugcgekomyiiik()->gswweykyogmsyawy(__("\x44\x65\166\x65\x6c\157\x70\40\x61\x6e\x64\40\x44\145\x73\x69\x67\x6e", PR__CMN__COVER))->wegcaymyqqoyewmw("\x77\x6f\x72\144\160\x72\x65\x73\x73\55\x77\x65\x62\x2d\144\145\163\151\147\156\55\x64\145\166\x65\154\157\160\x6d\145\156\164"); } }
