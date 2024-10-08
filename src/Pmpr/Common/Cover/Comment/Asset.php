@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             66fbd6cfc9458             |
+    |             670517377ff95             |
     |_______________________________________|
 */
- namespace Pmpr\Common\Cover\Comment; class Asset extends Common { public function wigskegsqequoeks() { $this->waqewsckuayqguos("\x62\x65\x66\157\162\145\x5f\x65\156\161\165\145\x75\x65\x5f\146\162\x6f\x6e\x74\x65\x6e\x64\137\x61\163\163\145\x74\163", [$this, "\x65\x6e\161\x75\x65\x75\145"]); } public function enqueue() { if (!($this->kuqogciwkswmckgw() && $this->uiqcwsowwswommka())) { goto suqcsgaosywaauuu; } $eygsasmqycagyayw = $this->miocmcoykayoyyau(); $eygsasmqycagyayw->oeoquuwkoywiuesy($eygsasmqycagyayw->owygwqwawqoiusis("\x63\x6f\x6d\x6d\145\x6e\x74", $eygsasmqycagyayw->get("\x63\x6f\155\155\145\156\164\56\152\x73"))->simswskycwagoeqy()); $eygsasmqycagyayw->ieayqiyiuuguowyq("\x63\x6f\x6d\x6d\145\156\164", ["\x61\152\x61\x78" => Ajax::myikkigscysoykgy]); suqcsgaosywaauuu: } }
+ namespace Pmpr\Common\Cover\Comment; class Asset extends Common { public function wigskegsqequoeks() { $this->waqewsckuayqguos("\x62\145\146\x6f\162\x65\x5f\x65\x6e\161\165\145\x75\x65\x5f\146\162\157\x6e\x74\145\x6e\x64\x5f\x61\163\163\x65\164\163", [$this, "\x65\156\161\x75\145\165\x65"]); } public function enqueue() { if (!($this->kuqogciwkswmckgw() && $this->uiqcwsowwswommka())) { goto mscgewkcqcoowweg; } $eygsasmqycagyayw = $this->miocmcoykayoyyau(); $eygsasmqycagyayw->oeoquuwkoywiuesy($eygsasmqycagyayw->owygwqwawqoiusis("\x63\157\155\x6d\x65\156\164", $eygsasmqycagyayw->get("\143\x6f\155\155\145\156\x74\56\152\163"))->simswskycwagoeqy()); $eygsasmqycagyayw->ieayqiyiuuguowyq("\x63\157\155\155\145\156\164", ["\141\x6a\141\x78" => Ajax::myikkigscysoykgy]); mscgewkcqcoowweg: } }
