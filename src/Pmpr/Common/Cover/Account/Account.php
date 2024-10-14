@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             6705b083ce992             |
+    |             670cffeeccd8b             |
     |_______________________________________|
 */
- namespace Pmpr\Common\Cover\Account; class Account { }
+ namespace Pmpr\Common\Cover\Account; use Pmpr\Common\Cover\Container; class Account extends Container { }
