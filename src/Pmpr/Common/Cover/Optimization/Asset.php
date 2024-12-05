@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             6751a80ef0b5c             |
+    |             67522cf24bc52             |
     |_______________________________________|
 */
- namespace Pmpr\Common\Cover\Optimization; use Exception; class Asset extends Common { public function aqgugcgmsyciswgs($moooemyaqewumiay) { try { $moooemyaqewumiay = (string) preg_replace("\57\x74\x79\160\x65\75\x5b\47\x22\x5d\x74\145\x78\164\134\57\x28\x6a\141\166\x61\x73\x63\162\x69\x70\164\x7c\143\x73\x73\51\133\47\x22\135\57", '', $moooemyaqewumiay); } catch (Exception $wgaoewqkwgomoaai) { } return $moooemyaqewumiay; } }
+ namespace Pmpr\Common\Cover\Optimization; use Exception; class Asset extends Common { public function aqgugcgmsyciswgs($moooemyaqewumiay) { try { $moooemyaqewumiay = (string) preg_replace("\57\x74\x79\160\145\x3d\x5b\x27\42\x5d\164\x65\170\164\x5c\x2f\50\152\x61\x76\141\163\143\162\151\160\164\x7c\143\163\x73\51\x5b\x27\42\x5d\57", '', $moooemyaqewumiay); } catch (Exception $wgaoewqkwgomoaai) { } return $moooemyaqewumiay; } }
