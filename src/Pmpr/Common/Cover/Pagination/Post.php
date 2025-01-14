@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             678038b8edf05             |
+    |             6786e841c4cb2             |
     |_______________________________________|
 */
  namespace Pmpr\Common\Cover\Pagination; use Pmpr\Common\Foundation\Interfaces\Constants; class Post extends Common { protected ?string $type = Constants::mswoacegomcucaik; public function kooycocagkkmaiay($ywmkwiwkosakssii = []) { return paginate_links($ywmkwiwkosakssii); } }
