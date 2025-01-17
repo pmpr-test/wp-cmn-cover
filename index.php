@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             6786e841c4cb2             |
+    |             678a9fcbc08ae             |
     |_______________________________________|
 */
- use Pmpr\Common\Cover\Cover; Cover::symcgieuakksimmu(); if (!function_exists("\x67\x65\164\x5f\x63\157\x76\145\162\x5f\x73\145\x74\164\151\x6e\147")) { function get_cover_setting($uusmaiomayssaecw, $ggauoeuaesiymgee = null) { return Cover::symcgieuakksimmu()->weysguygiseoukqw($uusmaiomayssaecw, $ggauoeuaesiymgee); } }
+ use Pmpr\Common\Cover\Cover; Cover::symcgieuakksimmu(); if (!function_exists("\147\145\164\x5f\143\x6f\x76\145\162\x5f\163\x65\164\x74\151\156\147")) { function get_cover_setting($uusmaiomayssaecw, $ggauoeuaesiymgee = null) { return Cover::symcgieuakksimmu()->weysguygiseoukqw($uusmaiomayssaecw, $ggauoeuaesiymgee); } }
