@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pmpr Cover Foundation\n"
 "Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
-"POT-Creation-Date: 2024-12-04 19:57+0330\n"
+"POT-Creation-Date: 2025-02-23 18:47+0330\n"
 "PO-Revision-Date: \n"
 "Last-Translator: pmpr.dev <pmpr.dev@gmail.com>\n"
 "Language-Team: Your Team <translations@example.com>\n"
@@ -51,7 +51,7 @@ msgstr "نتیجه جستجو برای: %s"
 #: src/Pmpr/Common/Cover/Breadcrumb/Generator.php:139
 #, php-format
 msgid "Articles Posted by %s"
-msgstr "مقالات ارسال شده برای %s"
+msgstr "مقالات ارسال شده توسط %s"
 
 #: src/Pmpr/Common/Cover/Breadcrumb/Setting.php:23
 msgid "Breadcrumb"
@@ -312,17 +312,17 @@ msgstr "آدرس عکس بر حسب نسبت"
 msgid "Use aspect ratio based image URLs like"
 msgstr "آدرس عکس بر حسب نسبت"
 
-#: src/Pmpr/Common/Cover/Media/Media.php:76
+#: src/Pmpr/Common/Cover/Media/Media.php:79
 msgid "Please set new picture for this post."
 msgstr "لطفا تصویر دیگری برای این نوشته انتخاب کنید."
 
-#: src/Pmpr/Common/Cover/Media/Media.php:362
+#: src/Pmpr/Common/Cover/Media/Media.php:365
 #, php-format
 msgid "Upload Image files that are %1$s x %2$s pixels or larger (max. %3$s)."
 msgstr ""
 "فایل‌های تصویری که %1$s در %2$s و یا بزرگتر (بیشینه %3$s) هستند را آپلود کنید."
 
-#: src/Pmpr/Common/Cover/Media/Media.php:401
+#: src/Pmpr/Common/Cover/Media/Media.php:404
 #, php-format
 msgid ""
 "Your selected image dimension not valid. minimum dimension for %s must be %s "
@@ -351,12 +351,23 @@ msgstr "دیدگاه‌‌ها"
 msgid "Study time"
 msgstr "زمان"
 
-#: src/Pmpr/Common/Cover/Metadata/Metadata.php:161
+#: src/Pmpr/Common/Cover/Metadata/Metadata.php:148
+#, fuzzy, php-format
+#| msgid "Updated At"
+msgid "Updated at %s"
+msgstr "تاریخ به روزرسانی"
+
+#: src/Pmpr/Common/Cover/Metadata/Metadata.php:163
+#, php-format
+msgid "Published at %s"
+msgstr "منتشر شده در %s"
+
+#: src/Pmpr/Common/Cover/Metadata/Metadata.php:168
 #, php-format
 msgid "%s comments"
 msgstr "%s دیدگاه"
 
-#: src/Pmpr/Common/Cover/Metadata/Metadata.php:168
+#: src/Pmpr/Common/Cover/Metadata/Metadata.php:175
 #, php-format
 msgid "%s minute reading"
 msgstr "%s دقیقه مطالعه"
@@ -771,53 +782,9 @@ msgstr "معمولی"
 msgid "Solid"
 msgstr "ضخیم"
 
-#: src/Pmpr/Common/Cover/Setting/Setting.php:300
-msgid "Sharp Thin"
-msgstr "نازک با لبه تیز"
-
-#: src/Pmpr/Common/Cover/Setting/Setting.php:301
-msgid "Sharp Light"
-msgstr "لایت با لبه تیز"
-
-#: src/Pmpr/Common/Cover/Setting/Setting.php:302
-msgid "Sharp Regular"
-msgstr "معمولی با لبه تیز"
-
-#: src/Pmpr/Common/Cover/Setting/Setting.php:303
-msgid "Sharp Solid"
-msgstr "ضخیم با لبه تیز"
-
-#: src/Pmpr/Common/Cover/Setting/Setting.php:305
+#: src/Pmpr/Common/Cover/Setting/Setting.php:299
 msgid "Duotone"
 msgstr "دوتن"
-
-#: src/Pmpr/Common/Cover/Setting/Setting.php:306
-msgid "Duotone Thin"
-msgstr "دوتن نازک"
-
-#: src/Pmpr/Common/Cover/Setting/Setting.php:307
-msgid "Duotone Light"
-msgstr "دوتن لایت"
-
-#: src/Pmpr/Common/Cover/Setting/Setting.php:308
-msgid "Duotone Regular"
-msgstr "دوتون معمولی"
-
-#: src/Pmpr/Common/Cover/Setting/Setting.php:310
-msgid "Sharp Duotone Thin"
-msgstr "دوتن نازک با لبه تیز"
-
-#: src/Pmpr/Common/Cover/Setting/Setting.php:311
-msgid "Sharp Duotone Light"
-msgstr "دوتن لایت با لبه تیز"
-
-#: src/Pmpr/Common/Cover/Setting/Setting.php:312
-msgid "Sharp Duotone Regular"
-msgstr "دوتن معمولی با لبه تیز"
-
-#: src/Pmpr/Common/Cover/Setting/Setting.php:313
-msgid "Sharp Duotone Solid"
-msgstr "دوتن ضخیم با لبه تیز"
 
 #: src/Pmpr/Common/Cover/Template.php:93
 msgid "Your browser does not support HTML5 video."
@@ -1189,17 +1156,50 @@ msgstr "&laquo; قبلی"
 msgid "Next &raquo;"
 msgstr "بعدی &raquo;"
 
-#: src/Pmpr/Common/Cover/Woocommerce/Woocommerce.php:275
+#: src/Pmpr/Common/Cover/Woocommerce/Woocommerce.php:277
 msgid "Thousands"
 msgstr "هزار"
 
-#: src/Pmpr/Common/Cover/Woocommerce/Woocommerce.php:276
+#: src/Pmpr/Common/Cover/Woocommerce/Woocommerce.php:278
 msgid "Millions"
 msgstr "میلیون"
 
-#: src/Pmpr/Common/Cover/Woocommerce/Woocommerce.php:277
+#: src/Pmpr/Common/Cover/Woocommerce/Woocommerce.php:279
 msgid "Billions"
 msgstr "میلیارد"
+
+#~ msgid "Sharp Thin"
+#~ msgstr "نازک با لبه تیز"
+
+#~ msgid "Sharp Light"
+#~ msgstr "لایت با لبه تیز"
+
+#~ msgid "Sharp Regular"
+#~ msgstr "معمولی با لبه تیز"
+
+#~ msgid "Sharp Solid"
+#~ msgstr "ضخیم با لبه تیز"
+
+#~ msgid "Duotone Thin"
+#~ msgstr "دوتن نازک"
+
+#~ msgid "Duotone Light"
+#~ msgstr "دوتن لایت"
+
+#~ msgid "Duotone Regular"
+#~ msgstr "دوتون معمولی"
+
+#~ msgid "Sharp Duotone Thin"
+#~ msgstr "دوتن نازک با لبه تیز"
+
+#~ msgid "Sharp Duotone Light"
+#~ msgstr "دوتن لایت با لبه تیز"
+
+#~ msgid "Sharp Duotone Regular"
+#~ msgstr "دوتن معمولی با لبه تیز"
+
+#~ msgid "Sharp Duotone Solid"
+#~ msgstr "دوتن ضخیم با لبه تیز"
 
 #~ msgid "Nothing selected"
 #~ msgstr "چیزی انتخاب نشده‌ است"
