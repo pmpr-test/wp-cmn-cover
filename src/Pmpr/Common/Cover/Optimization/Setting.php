@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             67bc33a5c069f             |
+    |             67bc359d0b521             |
     |_______________________________________|
 */
  namespace Pmpr\Common\Cover\Optimization; use Pmpr\Common\Cover\Setting\Section; use Pmpr\Common\Foundation\Interfaces\IconInterface; class Setting extends Section { const qmwqkeocouqykuwc = 'disable_delay'; const mesmawyqgaugkmag = 'disable_cleanup'; const mgwkysuyugygacma = 'disable_lazyload'; const gwucgosagousgoko = 'exclude_from_optimization'; public function ykwqaukkycogooii() { $this->kwkugmqouisgkqig($this->ycgeeoiieoiakgam('optimization')->gswweykyogmsyawy(__('Optimization', PR__CMN__COVER))->jyumyyugiwwiqomk(10)->saemoowcasogykak(IconInterface::geywskycossgwwia)->mkksewyosgeumwsa($this->wcwmusaouiqaqeww(self::mgwkysuyugygacma)->gswweykyogmsyawy(__('Disable Lazy Load', PR__CMN__COVER)))->mkksewyosgeumwsa($this->wcwmusaouiqaqeww(self::qmwqkeocouqykuwc)->gswweykyogmsyawy(__('Disable Delayed Scripts', PR__CMN__COVER)))->mkksewyosgeumwsa($this->wcwmusaouiqaqeww(self::mesmawyqgaugkmag)->gswweykyogmsyawy(__('Disable Cleanup', PR__CMN__COVER)))->mkksewyosgeumwsa($this->mccagaqeagiikkec(self::gwucgosagousgoko)->gswweykyogmsyawy(__('Exclude Optimization', PR__CMN__COVER))->ukqywcsoogkyoaoa()->oikgogcweiiaocka()->mkmssscwmeekwgqo()->gucwmccyimoagwcm(__('Choice posts from post type that you want to ignore from optimization', PR__CMN__COVER)))); } }

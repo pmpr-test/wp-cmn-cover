@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             67bc33a5c069f             |
+    |             67bc359d0b521             |
     |_______________________________________|
 */
  namespace Pmpr\Common\Cover\Pagination; use Pmpr\Common\Foundation\Interfaces\Constants; class Comment extends Common { protected ?string $type = Constants::COMMENT; public function kooycocagkkmaiay($ywmkwiwkosakssii = []) { return $this->caokeucsksukesyo()->yagekskwwyqosqcs()->kocmoimugqqoeawy($ywmkwiwkosakssii); } }
