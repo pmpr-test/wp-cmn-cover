@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             67e169333f8db             |
+    |             67e870e21cd7a             |
     |_______________________________________|
 */
  namespace Pmpr\Common\Cover\Optimization\Cache; class Cache extends Common { }
