@@ -1,2 +1,2 @@
-/*! For license information please see icon.gjhoUE2qq.js.LICENSE.txt */
+/*! For license information please see icon.JDut7NqwP.js.LICENSE.txt */
 !function(){const e=PRInlineHelper.getHook(),n=PRInlineHelper.getHTML();e.observer(".pr-icon:not(.icon-loaded)",(function(e){let t=n.getData(e,"src");PRInlineHelper.getType().isEmpty(t)||fetch(t,{method:"get"}).then((function(e){return e.text()})).then((function(t){const o=n.createElement(t);n.fadeIn(e,{start:()=>{n.append(o,e);const t=n.getData(e,"class");t&&n.addClass(e,t)}}),n.addClass(e,"icon-loaded"),n.setData(e,"src","")})).catch((function(e){console.log("Error on loading icon: ",e)}))}))}();
