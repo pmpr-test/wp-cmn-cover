@@ -4,4 +4,4 @@
     |             68ac26367e13b             |
     |_______________________________________|
 */
- namespace Pmpr\Common\Cover\Account; use Pmpr\Common\Cover\Container; class Account extends Container { }
+ namespace Pmpr\Common\Cover\Error; use Pmpr\Common\Cover\Container; class Error extends Container { public function mameiwsayuyquoeq() { WPDie::symcgieuakksimmu(); } }

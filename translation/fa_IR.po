@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pmpr Cover Foundation\n"
 "Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
-"POT-Creation-Date: 2025-02-23 18:47+0330\n"
+"POT-Creation-Date: 2025-08-24 16:25+0330\n"
 "PO-Revision-Date: \n"
 "Last-Translator: pmpr.dev <pmpr.dev@gmail.com>\n"
 "Language-Team: Your Team <translations@example.com>\n"
@@ -13,55 +13,59 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
 "X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;esc_attr_e;"
-"esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2;"
-"_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Poedit-KeywordsList: "
+"__;_e;esc_html_e;esc_html_x:1,2c;esc_html__;esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
 "X-Poedit-Basepath: ..\n"
-"X-Generator: Poedit 3.5\n"
+"X-Generator: Poedit 3.7\n"
 "X-Poedit-SearchPathExcluded-2: vendor\n"
 "X-Poedit-SearchPathExcluded-3: asset\n"
 "X-Poedit-SearchPathExcluded-4: build\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: node_modules\n"
 
-#: src/Pmpr/Common/Cover/Breadcrumb/Generator.php:132
-#, php-format
-msgid "Posts Tagged: %s"
-msgstr "نوشته‌هایی با برچسب: %s"
-
-#: src/Pmpr/Common/Cover/Breadcrumb/Generator.php:133
+#: src/Pmpr/Common/Cover/Breadcrumb/Generator.php:150
 msgid "Error 404"
 msgstr "خطا ۴۰۴"
 
-#: src/Pmpr/Common/Cover/Breadcrumb/Generator.php:135
+#: src/Pmpr/Common/Cover/Breadcrumb/Generator.php:151
 #, php-format
 msgid "Comment Page %s"
 msgstr "صفحه نظرات %s"
 
-#: src/Pmpr/Common/Cover/Breadcrumb/Generator.php:137
+#: src/Pmpr/Common/Cover/Breadcrumb/Generator.php:153
+#, php-format
+msgid "Posts Tagged: %s"
+msgstr "نوشته‌هایی با برچسب: %s"
+
+#: src/Pmpr/Common/Cover/Breadcrumb/Generator.php:155
 #, php-format
 msgid "Page %s"
 msgstr "صفحه %s"
 
-#: src/Pmpr/Common/Cover/Breadcrumb/Generator.php:138
+#: src/Pmpr/Common/Cover/Breadcrumb/Generator.php:156
 #, php-format
 msgid "Search Results for: %s"
 msgstr "نتیجه جستجو برای: %s"
 
-#: src/Pmpr/Common/Cover/Breadcrumb/Generator.php:139
+#: src/Pmpr/Common/Cover/Breadcrumb/Generator.php:157
 #, php-format
 msgid "Articles Posted by %s"
 msgstr "مقالات ارسال شده توسط %s"
 
-#: src/Pmpr/Common/Cover/Breadcrumb/Setting.php:23
+#: src/Pmpr/Common/Cover/Breadcrumb/Setting.php:26
+#: src/Pmpr/Common/Cover/Breadcrumb/StructuredData.php:74
 msgid "Breadcrumb"
 msgstr "دنباله آدرس صفحه (بردکرامب)"
 
-#: src/Pmpr/Common/Cover/Breadcrumb/Setting.php:27
+#: src/Pmpr/Common/Cover/Breadcrumb/Setting.php:30
 msgid "Display Breadcrumb"
 msgstr "نمایش بردکرامب"
 
-#: src/Pmpr/Common/Cover/Breadcrumb/Setting.php:30
+#: src/Pmpr/Common/Cover/Breadcrumb/Setting.php:34
+msgid "Home Anchor Icon"
+msgstr ""
+
+#: src/Pmpr/Common/Cover/Breadcrumb/Setting.php:38
 msgid "Exclude Posts"
 msgstr "نوشته‌های مستثنی"
 
@@ -116,7 +120,7 @@ msgid "Author Logo"
 msgstr "لوگو نویسنده"
 
 #: src/Pmpr/Common/Cover/Comment/Frontend.php:144
-#: src/Pmpr/Common/Cover/Comment/Setting.php:38
+#: src/Pmpr/Common/Cover/Comment/Setting.php:40
 msgid "Comment"
 msgstr "دیدگاه‌"
 
@@ -149,102 +153,106 @@ msgstr "متادیتای دیدگاه"
 msgid "Comment Mediator"
 msgstr "متادیتای دیدگاه"
 
-#: src/Pmpr/Common/Cover/Comment/Setting.php:42
+#: src/Pmpr/Common/Cover/Comment/Setting.php:44
 msgid "Target Post Types"
 msgstr "نوع‌ نوشته‌های هدف"
 
-#: src/Pmpr/Common/Cover/Comment/Setting.php:43
+#: src/Pmpr/Common/Cover/Comment/Setting.php:45
 msgid "Enable comment for selected post types."
 msgstr "نوع نوشته‌هایی که دیدگاه می‌پذیرند."
 
-#: src/Pmpr/Common/Cover/Comment/Setting.php:48
+#: src/Pmpr/Common/Cover/Comment/Setting.php:50
 msgid "Target Taxonomies"
 msgstr "طبقه‌بندی های هدف"
 
-#: src/Pmpr/Common/Cover/Comment/Setting.php:49
+#: src/Pmpr/Common/Cover/Comment/Setting.php:51
 msgid "Enable comment for selected taxonomies."
 msgstr "فعال کردن دیدگاه برای طبقه‌بندی های انتخابی."
 
-#: src/Pmpr/Common/Cover/Comment/Setting.php:54
+#: src/Pmpr/Common/Cover/Comment/Setting.php:56
 msgid "Success Submission Message"
 msgstr "پیغام ثبت موفقیت آمیز"
 
-#: src/Pmpr/Common/Cover/Comment/Setting.php:55
+#: src/Pmpr/Common/Cover/Comment/Setting.php:58
 msgid "Your comment successfully submitted."
 msgstr "دیدگاه شما با موفقیت ثبت شد."
 
-#: src/Pmpr/Common/Cover/Comment/Setting.php:59
+#: src/Pmpr/Common/Cover/Comment/Setting.php:62
 #: src/Pmpr/Common/Cover/Widget/Taxonomy.php:80
 msgid "Collapsible"
 msgstr "قابلیت باز و بسته شدن"
 
-#: src/Pmpr/Common/Cover/Comment/Setting.php:60
+#: src/Pmpr/Common/Cover/Comment/Setting.php:63
 msgid "Make comment form collapsible"
 msgstr "قابلیت باز و بسته شدن فرم دیدگاه"
 
-#: src/Pmpr/Common/Cover/Comment/Setting.php:65
+#: src/Pmpr/Common/Cover/Comment/Setting.php:68
 msgid "Collapsible on Load"
 msgstr "بسته بودن هنگام بارگذاری صفحه"
 
-#: src/Pmpr/Common/Cover/Comment/Setting.php:66
+#: src/Pmpr/Common/Cover/Comment/Setting.php:69
 msgid "Make comment form collapsible after load page"
 msgstr "فرم نظرات در هنگام بارگذاری اولیه صفحه بسته خواهد بود"
 
-#: src/Pmpr/Common/Cover/Comment/Setting.php:70
+#: src/Pmpr/Common/Cover/Comment/Setting.php:73
 msgid "Sow Site Brand"
 msgstr "نمایش برند سایت"
 
-#: src/Pmpr/Common/Cover/Comment/Setting.php:71
+#: src/Pmpr/Common/Cover/Comment/Setting.php:74
 msgid "Show site brand for user with selected roles."
 msgstr "نمایش برند سایت برای نقش‌های کاربری انتخاب شده."
 
-#: src/Pmpr/Common/Cover/Comment/Setting.php:76
+#: src/Pmpr/Common/Cover/Comment/Setting.php:79
 msgid "Target Roles"
 msgstr "نقش‌های کاربری"
 
-#: src/Pmpr/Common/Cover/Comment/Setting.php:82
+#: src/Pmpr/Common/Cover/Comment/Setting.php:85
 msgid "Alternative Avatar"
 msgstr "آواتار جایگزین"
 
-#: src/Pmpr/Common/Cover/Cover.php:39
+#: src/Pmpr/Common/Cover/Cover.php:41
 msgid "Common Cover"
 msgstr "کاور مشترک"
 
-#: src/Pmpr/Common/Cover/Development.php:13
+#: src/Pmpr/Common/Cover/Development.php:17
 msgid "Develop and Design"
 msgstr ""
 
-#: src/Pmpr/Common/Cover/Editor.php:35
+#: src/Pmpr/Common/Cover/Editor.php:70
 msgid "Rel Attribute"
 msgstr "ویژگی‌ rel"
 
-#: src/Pmpr/Common/Cover/Editor.php:75
+#: src/Pmpr/Common/Cover/Editor.php:88
 msgid "None"
 msgstr "هیچکدام"
 
-#: src/Pmpr/Common/Cover/Editor.php:78 src/Pmpr/Common/Cover/Widget/Post.php:84
+#: src/Pmpr/Common/Cover/Editor.php:91 src/Pmpr/Common/Cover/Widget/Post.php:84
 msgid "Table"
 msgstr "جدول"
 
-#: src/Pmpr/Common/Cover/Editor.php:82
+#: src/Pmpr/Common/Cover/Editor.php:95
 msgid "Striped"
 msgstr "راه راه"
 
-#: src/Pmpr/Common/Cover/Editor.php:86
+#: src/Pmpr/Common/Cover/Editor.php:99
 msgid "Bordered"
 msgstr "لبه دار"
 
-#: src/Pmpr/Common/Cover/Logo/Setting.php:23
+#: src/Pmpr/Common/Cover/Error/WPDie.php:66
+msgid "Back"
+msgstr "بازگشت"
+
+#: src/Pmpr/Common/Cover/Logo/Setting.php:25
 msgid "Logo"
 msgstr "لوگو"
 
-#: src/Pmpr/Common/Cover/Logo/Setting.php:27
+#: src/Pmpr/Common/Cover/Logo/Setting.php:29
 #: src/Pmpr/Common/Cover/Setting/Setting.php:229
 #: src/Pmpr/Common/Cover/Widget/Metadata.php:32
 msgid "Items"
 msgstr "آیتم‌ها‌"
 
-#: src/Pmpr/Common/Cover/Logo/Setting.php:30
+#: src/Pmpr/Common/Cover/Logo/Setting.php:32
 #: src/Pmpr/Common/Cover/Search/Setting.php:62
 #: src/Pmpr/Common/Cover/Search/Setting.php:68
 #: src/Pmpr/Common/Cover/Setting/Setting.php:143
@@ -256,73 +264,73 @@ msgstr "آیتم‌ها‌"
 msgid "Title"
 msgstr "عنوان"
 
-#: src/Pmpr/Common/Cover/Logo/Setting.php:35
+#: src/Pmpr/Common/Cover/Logo/Setting.php:37
 msgid "Admin Bar"
 msgstr "نوار مدیریت"
 
-#: src/Pmpr/Common/Cover/Logo/Setting.php:36
+#: src/Pmpr/Common/Cover/Logo/Setting.php:38
 msgid "Header"
 msgstr "سربرگ سایت (هدر)"
 
-#: src/Pmpr/Common/Cover/Logo/Setting.php:37
+#: src/Pmpr/Common/Cover/Logo/Setting.php:39
 msgid "Footer"
 msgstr "پاورقی سایت (فوتتر)"
 
-#: src/Pmpr/Common/Cover/Logo/Setting.php:38
+#: src/Pmpr/Common/Cover/Logo/Setting.php:40
 msgid "Square"
 msgstr "مربعی"
 
-#: src/Pmpr/Common/Cover/Logo/Setting.php:39
+#: src/Pmpr/Common/Cover/Logo/Setting.php:41
 msgid "Small"
 msgstr "کوچک"
 
-#: src/Pmpr/Common/Cover/Logo/Setting.php:40
+#: src/Pmpr/Common/Cover/Logo/Setting.php:42
 msgid "Large"
 msgstr "بزرگ"
 
-#: src/Pmpr/Common/Cover/Logo/Setting.php:41
+#: src/Pmpr/Common/Cover/Logo/Setting.php:43
 msgid "Default (As Fallback)"
 msgstr ""
 
-#: src/Pmpr/Common/Cover/Logo/Setting.php:43
+#: src/Pmpr/Common/Cover/Logo/Setting.php:45
 #: src/Pmpr/Common/Cover/Widget/Post.php:44
 #: src/Pmpr/Common/Cover/Widget/Taxonomy.php:66
 msgid "Type"
 msgstr "نوع"
 
-#: src/Pmpr/Common/Cover/Logo/Setting.php:47
+#: src/Pmpr/Common/Cover/Logo/Setting.php:49
 #: src/Pmpr/Common/Cover/Setting/Setting.php:138
 #: src/Pmpr/Common/Cover/Setting/Setting.php:255
 msgid "Image"
 msgstr "تصویر"
 
-#: src/Pmpr/Common/Cover/Media/Image.php:56
+#: src/Pmpr/Common/Cover/Media/Image/Image.php:56
 msgid "SEO settings"
 msgstr "تنظیمات سئو"
 
-#: src/Pmpr/Common/Cover/Media/Image.php:57
+#: src/Pmpr/Common/Cover/Media/Image/Image.php:57
 msgid "Improve your seo by using these settings."
 msgstr "ارتقای سئو با استفاده از تنظیمات این بخش."
 
-#: src/Pmpr/Common/Cover/Media/Image.php:62
+#: src/Pmpr/Common/Cover/Media/Image/Image.php:62
 msgid "Aspect ratio based URLs"
 msgstr "آدرس عکس بر حسب نسبت"
 
-#: src/Pmpr/Common/Cover/Media/Image.php:65
+#: src/Pmpr/Common/Cover/Media/Image/Image.php:65
 msgid "Use aspect ratio based image URLs like"
 msgstr "آدرس عکس بر حسب نسبت"
 
-#: src/Pmpr/Common/Cover/Media/Media.php:79
+#: src/Pmpr/Common/Cover/Media/Media.php:83
 msgid "Please set new picture for this post."
 msgstr "لطفا تصویر دیگری برای این نوشته انتخاب کنید."
 
-#: src/Pmpr/Common/Cover/Media/Media.php:365
+#: src/Pmpr/Common/Cover/Media/Media.php:369
 #, php-format
 msgid "Upload Image files that are %1$s x %2$s pixels or larger (max. %3$s)."
 msgstr ""
 "فایل‌های تصویری که %1$s در %2$s و یا بزرگتر (بیشینه %3$s) هستند را آپلود کنید."
 
-#: src/Pmpr/Common/Cover/Media/Media.php:404
+#: src/Pmpr/Common/Cover/Media/Media.php:408
 #, php-format
 msgid ""
 "Your selected image dimension not valid. minimum dimension for %s must be %s "
@@ -380,32 +388,32 @@ msgstr "نوشته در وبلاگ"
 msgid "Comments on Posts"
 msgstr "دیدگاه‌ها پیرامون نوشته‌ها"
 
-#: src/Pmpr/Common/Cover/Navigation/Navigation.php:129
+#: src/Pmpr/Common/Cover/Navigation/Navigation.php:127
 #: src/Pmpr/Common/Cover/Woocommerce/Attribute/GlobalAttribute.php:63
 msgid "Icon"
 msgstr "آیکون"
 
-#: src/Pmpr/Common/Cover/Optimization/Setting.php:23
+#: src/Pmpr/Common/Cover/Optimization/Setting.php:25
 msgid "Optimization"
 msgstr "افزایش سرعت"
 
-#: src/Pmpr/Common/Cover/Optimization/Setting.php:28
+#: src/Pmpr/Common/Cover/Optimization/Setting.php:30
 msgid "Disable Lazy Load"
 msgstr "غیرفعال کردن لیزی لود تصاویر"
 
-#: src/Pmpr/Common/Cover/Optimization/Setting.php:32
+#: src/Pmpr/Common/Cover/Optimization/Setting.php:34
 msgid "Disable Delayed Scripts"
 msgstr "عدم تاخیر در دریافت اسکریپت"
 
-#: src/Pmpr/Common/Cover/Optimization/Setting.php:36
+#: src/Pmpr/Common/Cover/Optimization/Setting.php:38
 msgid "Disable Cleanup"
 msgstr "غیر فعال کردن تمیزکاری خودکار"
 
-#: src/Pmpr/Common/Cover/Optimization/Setting.php:40
+#: src/Pmpr/Common/Cover/Optimization/Setting.php:42
 msgid "Exclude Optimization"
 msgstr "استثنائات افزایش سرعت"
 
-#: src/Pmpr/Common/Cover/Optimization/Setting.php:41
+#: src/Pmpr/Common/Cover/Optimization/Setting.php:43
 msgid "Choice posts from post type that you want to ignore from optimization"
 msgstr "صفحاتی که افزایش سرعت به آنها اعمال نمی‌شود"
 
@@ -424,16 +432,16 @@ msgid "Current"
 msgstr "جاری"
 
 #: src/Pmpr/Common/Cover/Search/Frontend.php:147
-#: src/Pmpr/Common/Cover/Search/Setting.php:90
-#: src/Pmpr/Common/Cover/Search/Setting.php:117
+#: src/Pmpr/Common/Cover/Search/Setting.php:93
+#: src/Pmpr/Common/Cover/Search/Setting.php:120
 #: src/Pmpr/Common/Cover/Widget/Post.php:26
 msgid "Posts"
 msgstr "نوشته‌ها"
 
 #: src/Pmpr/Common/Cover/Search/Frontend.php:148
-#: src/Pmpr/Common/Cover/Search/Setting.php:95
-#: src/Pmpr/Common/Cover/Search/Setting.php:188
-#: src/Pmpr/Common/Cover/Search/Setting.php:195
+#: src/Pmpr/Common/Cover/Search/Setting.php:98
+#: src/Pmpr/Common/Cover/Search/Setting.php:191
+#: src/Pmpr/Common/Cover/Search/Setting.php:198
 msgid "Terms"
 msgstr "ترم‌ها"
 
@@ -454,96 +462,96 @@ msgstr "هر دو"
 msgid "Slug"
 msgstr "نامک"
 
-#: src/Pmpr/Common/Cover/Search/Setting.php:75
+#: src/Pmpr/Common/Cover/Search/Setting.php:78
 #: src/Pmpr/Common/Cover/Widget/Search.php:22
 msgid "Advanced Search"
 msgstr "جستجوی پیشرفته"
 
-#: src/Pmpr/Common/Cover/Search/Setting.php:76
+#: src/Pmpr/Common/Cover/Search/Setting.php:79
 msgid "Search Configuration"
 msgstr "پیکربندی جستجو"
 
-#: src/Pmpr/Common/Cover/Search/Setting.php:80
+#: src/Pmpr/Common/Cover/Search/Setting.php:83
 #: src/Pmpr/Common/Cover/Setting/Setting.php:135
 #: src/Pmpr/Common/Cover/Setting/Setting.php:188
 msgid "General"
 msgstr "عمومی"
 
-#: src/Pmpr/Common/Cover/Search/Setting.php:84
+#: src/Pmpr/Common/Cover/Search/Setting.php:87
 msgid "Enable Advanced Search"
 msgstr "فعال سازی جستجوی پیشرفته"
 
-#: src/Pmpr/Common/Cover/Search/Setting.php:85
+#: src/Pmpr/Common/Cover/Search/Setting.php:88
 msgid "Check this option if you want enable advanced search functionality."
 msgstr ""
 "اگر می‌خواهید قابلیت جستجوی پیشرفته را فعال کنید، این گزینه را علامت بزنید."
 
-#: src/Pmpr/Common/Cover/Search/Setting.php:89
+#: src/Pmpr/Common/Cover/Search/Setting.php:92
 msgid "Display title for post types"
 msgstr "عنوان نمایشی برای نوع نوشته‌ها"
 
-#: src/Pmpr/Common/Cover/Search/Setting.php:94
+#: src/Pmpr/Common/Cover/Search/Setting.php:97
 msgid "Display title for taxonomies"
 msgstr "عنوان نمایشی برای تکسنومی‌ها"
 
-#: src/Pmpr/Common/Cover/Search/Setting.php:100
+#: src/Pmpr/Common/Cover/Search/Setting.php:103
 msgid "Form Fields"
 msgstr "فیلدهای فرم"
 
-#: src/Pmpr/Common/Cover/Search/Setting.php:104
+#: src/Pmpr/Common/Cover/Search/Setting.php:107
 msgid "Field Placeholder"
 msgstr "متن داخل فیلد"
 
-#: src/Pmpr/Common/Cover/Search/Setting.php:108
+#: src/Pmpr/Common/Cover/Search/Setting.php:111
 msgid "Field Description"
 msgstr "شرح فیلد"
 
-#: src/Pmpr/Common/Cover/Search/Setting.php:113
+#: src/Pmpr/Common/Cover/Search/Setting.php:116
 msgid "Search Query"
 msgstr "کوئری جستجو"
 
-#: src/Pmpr/Common/Cover/Search/Setting.php:120
+#: src/Pmpr/Common/Cover/Search/Setting.php:123
 msgid "Show posts in search result"
 msgstr "نمایش نوشته‌ها در نتیجه جستجو"
 
-#: src/Pmpr/Common/Cover/Search/Setting.php:129
+#: src/Pmpr/Common/Cover/Search/Setting.php:132
 msgid "Search in Posts"
 msgstr "جستجو در نوشته‌ها"
 
-#: src/Pmpr/Common/Cover/Search/Setting.php:134
+#: src/Pmpr/Common/Cover/Search/Setting.php:137
 msgid "Post Types"
 msgstr "نوع نوشته‌ها"
 
-#: src/Pmpr/Common/Cover/Search/Setting.php:135
-#: src/Pmpr/Common/Cover/Search/Setting.php:153
-#: src/Pmpr/Common/Cover/Search/Setting.php:213
+#: src/Pmpr/Common/Cover/Search/Setting.php:138
+#: src/Pmpr/Common/Cover/Search/Setting.php:156
+#: src/Pmpr/Common/Cover/Search/Setting.php:216
 msgid "Leave empty if you prefer to use all available items."
 msgstr "اگر ترجیح می دهید از همه موارد موجود استفاده کنید، خالی رها کنید."
 
-#: src/Pmpr/Common/Cover/Search/Setting.php:139
-#: src/Pmpr/Common/Cover/Search/Setting.php:157
-#: src/Pmpr/Common/Cover/Search/Setting.php:217
+#: src/Pmpr/Common/Cover/Search/Setting.php:142
+#: src/Pmpr/Common/Cover/Search/Setting.php:160
+#: src/Pmpr/Common/Cover/Search/Setting.php:220
 msgid "Target Field"
 msgstr "فیلد هدف"
 
-#: src/Pmpr/Common/Cover/Search/Setting.php:144
+#: src/Pmpr/Common/Cover/Search/Setting.php:147
 msgid "Search in Terms"
 msgstr "جستجو در ترم‌ها"
 
-#: src/Pmpr/Common/Cover/Search/Setting.php:152
-#: src/Pmpr/Common/Cover/Search/Setting.php:183
-#: src/Pmpr/Common/Cover/Search/Setting.php:212
+#: src/Pmpr/Common/Cover/Search/Setting.php:155
+#: src/Pmpr/Common/Cover/Search/Setting.php:186
+#: src/Pmpr/Common/Cover/Search/Setting.php:215
 #: src/Pmpr/Common/Cover/Widget/Taxonomy.php:31
 msgid "Taxonomies"
 msgstr "تکسونومی‌ها"
 
-#: src/Pmpr/Common/Cover/Search/Setting.php:162
-#: src/Pmpr/Common/Cover/Search/Setting.php:222
+#: src/Pmpr/Common/Cover/Search/Setting.php:165
+#: src/Pmpr/Common/Cover/Search/Setting.php:225
 msgid "Search Scope"
 msgstr "محدوده جستجو"
 
-#: src/Pmpr/Common/Cover/Search/Setting.php:163
-#: src/Pmpr/Common/Cover/Search/Setting.php:223
+#: src/Pmpr/Common/Cover/Search/Setting.php:166
+#: src/Pmpr/Common/Cover/Search/Setting.php:226
 msgid ""
 "By setting the following options, you can give users the ability to filter "
 "the content they are searching for."
@@ -551,44 +559,44 @@ msgstr ""
 "با تنظیم گزینه های زیر می توانید این امکان را به کاربران بدهید تا محتوای مورد "
 "جستجو را فیلتر کنند."
 
-#: src/Pmpr/Common/Cover/Search/Setting.php:166
-#: src/Pmpr/Common/Cover/Search/Setting.php:226
+#: src/Pmpr/Common/Cover/Search/Setting.php:169
+#: src/Pmpr/Common/Cover/Search/Setting.php:229
 msgid "Filter"
 msgstr "فیلتر"
 
-#: src/Pmpr/Common/Cover/Search/Setting.php:168
+#: src/Pmpr/Common/Cover/Search/Setting.php:171
 msgid "on Post Types"
 msgstr "روی نوع نوشته‌ها"
 
-#: src/Pmpr/Common/Cover/Search/Setting.php:169
-#: src/Pmpr/Common/Cover/Search/Setting.php:228
+#: src/Pmpr/Common/Cover/Search/Setting.php:172
+#: src/Pmpr/Common/Cover/Search/Setting.php:231
 msgid "on Taxonomies"
 msgstr "روی تکسونومی‌ها"
 
-#: src/Pmpr/Common/Cover/Search/Setting.php:170
-#: src/Pmpr/Common/Cover/Search/Setting.php:229
+#: src/Pmpr/Common/Cover/Search/Setting.php:173
+#: src/Pmpr/Common/Cover/Search/Setting.php:232
 msgid "Without Filter"
 msgstr "بدون فیلتر"
 
-#: src/Pmpr/Common/Cover/Search/Setting.php:178
+#: src/Pmpr/Common/Cover/Search/Setting.php:181
 msgid "Post types"
 msgstr "نوع نوشته‌ها"
 
-#: src/Pmpr/Common/Cover/Search/Setting.php:179
-#: src/Pmpr/Common/Cover/Search/Setting.php:184
-#: src/Pmpr/Common/Cover/Search/Setting.php:189
+#: src/Pmpr/Common/Cover/Search/Setting.php:182
+#: src/Pmpr/Common/Cover/Search/Setting.php:187
+#: src/Pmpr/Common/Cover/Search/Setting.php:192
 msgid "Leave empty if you want show all terms in dropdown."
 msgstr "اگر می‌خواهید همه ترم‌ها را به صورت کشویی نشان دهید، خالی رها کنید."
 
-#: src/Pmpr/Common/Cover/Search/Setting.php:198
+#: src/Pmpr/Common/Cover/Search/Setting.php:201
 msgid "Show terms in search result"
 msgstr "نمایش ترم‌ها در نتیجه جستجو"
 
-#: src/Pmpr/Common/Cover/Search/Setting.php:207
+#: src/Pmpr/Common/Cover/Search/Setting.php:210
 msgid "Hide Empty Terms"
 msgstr "مخفی کردن آیتم‌های خالی"
 
-#: src/Pmpr/Common/Cover/Search/Setting.php:208
+#: src/Pmpr/Common/Cover/Search/Setting.php:211
 msgid ""
 "By checking this option, just show terms that linked to posts in search "
 "result."
@@ -1000,7 +1008,7 @@ msgstr "تگ کلود"
 msgid "Display the title."
 msgstr "نمایش عنوان."
 
-#: src/Pmpr/Common/Cover/Woocommerce/Attribute/Attribute.php:55
+#: src/Pmpr/Common/Cover/Woocommerce/Attribute/Attribute.php:56
 #: src/Pmpr/Common/Cover/Woocommerce/Variation.php:224
 msgid "Indicator"
 msgstr ""
@@ -1017,15 +1025,15 @@ msgstr "عدد"
 msgid "Value type"
 msgstr "نوع مقدار"
 
-#: src/Pmpr/Common/Cover/Woocommerce/Attribute/LocalAttribute.php:128
+#: src/Pmpr/Common/Cover/Woocommerce/Attribute/LocalAttribute.php:146
 msgid "Custom Fields"
 msgstr "فیلد‌های سفارشی"
 
-#: src/Pmpr/Common/Cover/Woocommerce/Attribute/LocalAttribute.php:131
+#: src/Pmpr/Common/Cover/Woocommerce/Attribute/LocalAttribute.php:149
 msgid "Can not render fields correctly, please refresh page manually."
 msgstr ""
 
-#: src/Pmpr/Common/Cover/Woocommerce/Attribute/LocalAttribute.php:132
+#: src/Pmpr/Common/Cover/Woocommerce/Attribute/LocalAttribute.php:150
 msgid "fields loaded correctly."
 msgstr ""
 
@@ -1086,6 +1094,18 @@ msgstr "مقدار"
 msgid "If attribute is a number field, fill this field too."
 msgstr "اگر ویژگی یک فیلد عددی است، این فیلد را نیز پر کنید."
 
+#: src/Pmpr/Common/Cover/Woocommerce/Download.php:34
+msgid "Download Test"
+msgstr ""
+
+#: src/Pmpr/Common/Cover/Woocommerce/Download.php:42
+msgid "Sorry but you dont have permission to do this."
+msgstr ""
+
+#: src/Pmpr/Common/Cover/Woocommerce/Download.php:54
+msgid "File is not valid or it's out of upload's directory."
+msgstr ""
+
 #: src/Pmpr/Common/Cover/Woocommerce/ListTable/ProductCustomer.php:31
 msgid "Customers"
 msgstr "مشتریان"
@@ -1108,15 +1128,15 @@ msgstr ""
 msgid "No customer bought %s product."
 msgstr ""
 
-#: src/Pmpr/Common/Cover/Woocommerce/Setting.php:266
+#: src/Pmpr/Common/Cover/Woocommerce/Setting.php:31
 msgid "Show price short"
 msgstr "نمایش کوتاه‌تر قیمت"
 
-#: src/Pmpr/Common/Cover/Woocommerce/Setting.php:268
+#: src/Pmpr/Common/Cover/Woocommerce/Setting.php:33
 msgid "Short Price"
 msgstr "کوتاه سازی قیمت"
 
-#: src/Pmpr/Common/Cover/Woocommerce/Setting.php:274
+#: src/Pmpr/Common/Cover/Woocommerce/Setting.php:39
 msgid ""
 "This label show instead of 0 product's price, leave empty if you don't want "
 "this change"
@@ -1124,47 +1144,47 @@ msgstr ""
 "این متن به جای مقدار ۰ قیمت محصولات نمایش داده خواهد شد، اگر این تغییر را "
 "نمی‌خواهید خالی رها کنید"
 
-#: src/Pmpr/Common/Cover/Woocommerce/Setting.php:276
+#: src/Pmpr/Common/Cover/Woocommerce/Setting.php:41
 msgid "Free Price Label"
 msgstr "متن قیمت رایگان"
 
-#: src/Pmpr/Common/Cover/Woocommerce/Setting.php:291
+#: src/Pmpr/Common/Cover/Woocommerce/Setting.php:56
 msgid "Shop items per page"
 msgstr "تعداد آیتم در هر صفحه فروشگاه"
 
-#: src/Pmpr/Common/Cover/Woocommerce/Setting.php:295
+#: src/Pmpr/Common/Cover/Woocommerce/Setting.php:60
 msgid "Attributes tab title"
 msgstr "عنوان تب ویژگی‌ها"
 
-#: src/Pmpr/Common/Cover/Woocommerce/Setting.php:300
+#: src/Pmpr/Common/Cover/Woocommerce/Setting.php:65
 msgid "Search"
 msgstr "جستجو"
 
-#: src/Pmpr/Common/Cover/Woocommerce/Setting.php:304
+#: src/Pmpr/Common/Cover/Woocommerce/Setting.php:69
 msgid "Product Search"
 msgstr "جستجوی محصول"
 
-#: src/Pmpr/Common/Cover/Woocommerce/Setting.php:306
+#: src/Pmpr/Common/Cover/Woocommerce/Setting.php:71
 msgid "Enable product simple search in backend area"
 msgstr "قعال سازی جستجوی ساده محصولات در بخش مدیریت سایت"
 
-#: src/Pmpr/Common/Cover/Woocommerce/Template.php:226
+#: src/Pmpr/Common/Cover/Woocommerce/Template.php:233
 msgid "&laquo; Previous"
 msgstr "&laquo; قبلی"
 
-#: src/Pmpr/Common/Cover/Woocommerce/Template.php:227
+#: src/Pmpr/Common/Cover/Woocommerce/Template.php:234
 msgid "Next &raquo;"
 msgstr "بعدی &raquo;"
 
-#: src/Pmpr/Common/Cover/Woocommerce/Woocommerce.php:277
+#: src/Pmpr/Common/Cover/Woocommerce/Woocommerce.php:278
 msgid "Thousands"
 msgstr "هزار"
 
-#: src/Pmpr/Common/Cover/Woocommerce/Woocommerce.php:278
+#: src/Pmpr/Common/Cover/Woocommerce/Woocommerce.php:279
 msgid "Millions"
 msgstr "میلیون"
 
-#: src/Pmpr/Common/Cover/Woocommerce/Woocommerce.php:279
+#: src/Pmpr/Common/Cover/Woocommerce/Woocommerce.php:280
 msgid "Billions"
 msgstr "میلیارد"
 
