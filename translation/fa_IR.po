@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pmpr Cover Foundation\n"
 "Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
-"POT-Creation-Date: 2025-08-24 16:25+0330\n"
+"POT-Creation-Date: 2025-09-11 14:29+0330\n"
 "PO-Revision-Date: \n"
 "Last-Translator: pmpr.dev <pmpr.dev@gmail.com>\n"
 "Language-Team: Your Team <translations@example.com>\n"
@@ -222,21 +222,21 @@ msgstr ""
 msgid "Rel Attribute"
 msgstr "ویژگی‌ rel"
 
-#: src/Pmpr/Common/Cover/Editor.php:88
+#: src/Pmpr/Common/Cover/Editor.php:89
 msgid "None"
 msgstr "هیچکدام"
 
-#: src/Pmpr/Common/Cover/Editor.php:91 src/Pmpr/Common/Cover/Widget/Post.php:84
+#: src/Pmpr/Common/Cover/Editor.php:93 src/Pmpr/Common/Cover/Widget/Post.php:84
 msgid "Table"
 msgstr "جدول"
 
-#: src/Pmpr/Common/Cover/Editor.php:95
-msgid "Striped"
-msgstr "راه راه"
+#: src/Pmpr/Common/Cover/Editor.php:97
+msgid "Striped Table"
+msgstr "جدول راه راه"
 
-#: src/Pmpr/Common/Cover/Editor.php:99
-msgid "Bordered"
-msgstr "لبه دار"
+#: src/Pmpr/Common/Cover/Editor.php:101
+msgid "Bordered Table"
+msgstr "جدول حاشیه دار"
 
 #: src/Pmpr/Common/Cover/Error/WPDie.php:66
 msgid "Back"
@@ -360,10 +360,9 @@ msgid "Study time"
 msgstr "زمان"
 
 #: src/Pmpr/Common/Cover/Metadata/Metadata.php:148
-#, fuzzy, php-format
-#| msgid "Updated At"
+#, php-format
 msgid "Updated at %s"
-msgstr "تاریخ به روزرسانی"
+msgstr "به روز شده در %s"
 
 #: src/Pmpr/Common/Cover/Metadata/Metadata.php:163
 #, php-format
