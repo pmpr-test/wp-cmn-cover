@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pmpr Cover Foundation\n"
 "Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
-"POT-Creation-Date: 2025-09-11 14:29+0330\n"
+"POT-Creation-Date: 2025-09-24 13:23+0330\n"
 "PO-Revision-Date: \n"
 "Last-Translator: pmpr.dev <pmpr.dev@gmail.com>\n"
 "Language-Team: Your Team <translations@example.com>\n"
@@ -387,10 +387,13 @@ msgstr "نوشته در وبلاگ"
 msgid "Comments on Posts"
 msgstr "دیدگاه‌ها پیرامون نوشته‌ها"
 
-#: src/Pmpr/Common/Cover/Navigation/Navigation.php:127
-#: src/Pmpr/Common/Cover/Woocommerce/Attribute/GlobalAttribute.php:63
-msgid "Icon"
-msgstr "آیکون"
+#: src/Pmpr/Common/Cover/Navigation/Navigation.php:132
+msgid "Menu Icon"
+msgstr "آیکون منو"
+
+#: src/Pmpr/Common/Cover/Navigation/Navigation.php:135
+msgid "Disable Menu"
+msgstr "غیر فعال کردن منو"
 
 #: src/Pmpr/Common/Cover/Optimization/Setting.php:25
 msgid "Optimization"
@@ -793,7 +796,7 @@ msgstr "ضخیم"
 msgid "Duotone"
 msgstr "دوتن"
 
-#: src/Pmpr/Common/Cover/Template.php:93
+#: src/Pmpr/Common/Cover/Template.php:94
 msgid "Your browser does not support HTML5 video."
 msgstr "مرورگر شما تگ ویدئوی HTML5  را پشتیبانی نمی کند."
 
@@ -1023,6 +1026,10 @@ msgstr "عدد"
 #: src/Pmpr/Common/Cover/Woocommerce/Attribute/GlobalAttribute.php:58
 msgid "Value type"
 msgstr "نوع مقدار"
+
+#: src/Pmpr/Common/Cover/Woocommerce/Attribute/GlobalAttribute.php:63
+msgid "Icon"
+msgstr "آیکون"
 
 #: src/Pmpr/Common/Cover/Woocommerce/Attribute/LocalAttribute.php:146
 msgid "Custom Fields"

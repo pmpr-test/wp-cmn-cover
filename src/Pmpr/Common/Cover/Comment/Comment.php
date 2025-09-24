@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             68d2c739f2b3d             |
+    |             68d3d1828c699             |
     |_______________________________________|
 */
  namespace Pmpr\Common\Cover\Comment; class Comment extends Common { public function mameiwsayuyquoeq() { Mediator::symcgieuakksimmu(); $owaoeyikmqaeegma = $this->caokeucsksukesyo()->owicscwgeuqcqaig(); if ($owaoeyikmqaeegma->awumyiewiaosiyyy()) { Backend::symcgieuakksimmu(); } else { Form::symcgieuakksimmu(); Frontend::symcgieuakksimmu(); } } public function wigskegsqequoeks() { $this->qcsmikeggeemccuu('init', [$this, 'init'], 0); } public function init() { if ($this->uwkmaywceaaaigwo()->owicscwgeuqcqaig()->goecwaaykqoaaagg()) { Setting::symcgieuakksimmu(); } } public function kgquecmsgcouyaya() { $this->aqaqisyssqeomwom(self::ukyommesgeqqcayq . 'is_allow_render', [$this, 'uiqcwsowwswommka']); } }
