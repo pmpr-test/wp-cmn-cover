@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pmpr Cover Foundation\n"
 "Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
-"POT-Creation-Date: 2025-09-24 17:47+0330\n"
+"POT-Creation-Date: 2026-04-10 19:14+0330\n"
 "PO-Revision-Date: \n"
 "Last-Translator: pmpr.dev <pmpr.dev@gmail.com>\n"
 "Language-Team: Your Team <translations@example.com>\n"
@@ -16,38 +16,38 @@ msgstr ""
 "X-Poedit-KeywordsList: "
 "__;_e;esc_html_e;esc_html_x:1,2c;esc_html__;esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
 "X-Poedit-Basepath: ..\n"
-"X-Generator: Poedit 3.7\n"
+"X-Generator: Poedit 3.8\n"
 "X-Poedit-SearchPathExcluded-2: vendor\n"
 "X-Poedit-SearchPathExcluded-3: asset\n"
 "X-Poedit-SearchPathExcluded-4: build\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: node_modules\n"
 
-#: src/Pmpr/Common/Cover/Breadcrumb/Generator.php:150
+#: src/Pmpr/Common/Cover/Breadcrumb/Generator.php:171
 msgid "Error 404"
 msgstr "خطا ۴۰۴"
 
-#: src/Pmpr/Common/Cover/Breadcrumb/Generator.php:151
+#: src/Pmpr/Common/Cover/Breadcrumb/Generator.php:172
 #, php-format
 msgid "Comment Page %s"
 msgstr "صفحه نظرات %s"
 
-#: src/Pmpr/Common/Cover/Breadcrumb/Generator.php:153
+#: src/Pmpr/Common/Cover/Breadcrumb/Generator.php:174
 #, php-format
 msgid "Posts Tagged: %s"
 msgstr "نوشته‌هایی با برچسب: %s"
 
-#: src/Pmpr/Common/Cover/Breadcrumb/Generator.php:155
+#: src/Pmpr/Common/Cover/Breadcrumb/Generator.php:176
 #, php-format
 msgid "Page %s"
 msgstr "صفحه %s"
 
-#: src/Pmpr/Common/Cover/Breadcrumb/Generator.php:156
+#: src/Pmpr/Common/Cover/Breadcrumb/Generator.php:177
 #, php-format
 msgid "Search Results for: %s"
 msgstr "نتیجه جستجو برای: %s"
 
-#: src/Pmpr/Common/Cover/Breadcrumb/Generator.php:157
+#: src/Pmpr/Common/Cover/Breadcrumb/Generator.php:178
 #, php-format
 msgid "Articles Posted by %s"
 msgstr "مقالات ارسال شده توسط %s"
@@ -63,7 +63,7 @@ msgstr "نمایش بردکرامب"
 
 #: src/Pmpr/Common/Cover/Breadcrumb/Setting.php:34
 msgid "Home Anchor Icon"
-msgstr ""
+msgstr "آیکون خانه"
 
 #: src/Pmpr/Common/Cover/Breadcrumb/Setting.php:38
 msgid "Exclude Posts"
@@ -120,7 +120,7 @@ msgid "Author Logo"
 msgstr "لوگو نویسنده"
 
 #: src/Pmpr/Common/Cover/Comment/Frontend.php:144
-#: src/Pmpr/Common/Cover/Comment/Setting.php:40
+#: src/Pmpr/Common/Cover/Comment/Setting.php:41
 msgid "Comment"
 msgstr "دیدگاه‌"
 
@@ -132,12 +132,12 @@ msgstr "هنوز دیدگاهی وجود ندارد."
 msgid "Your comment is awaiting moderation."
 msgstr "دیدگاه شما پس از تایید نمایش داده خواهد شد."
 
-#: src/Pmpr/Common/Cover/Comment/Frontend.php:228
+#: src/Pmpr/Common/Cover/Comment/Frontend.php:238
 #, php-format
 msgid "%1$s at %2$s"
 msgstr "‏%1$s در %2$s"
 
-#: src/Pmpr/Common/Cover/Comment/Frontend.php:232
+#: src/Pmpr/Common/Cover/Comment/Frontend.php:242
 msgid "Reply"
 msgstr "پاسخ"
 
@@ -153,60 +153,71 @@ msgstr "متادیتای دیدگاه"
 msgid "Comment Mediator"
 msgstr "متادیتای دیدگاه"
 
-#: src/Pmpr/Common/Cover/Comment/Setting.php:44
+#: src/Pmpr/Common/Cover/Comment/Setting.php:45
 msgid "Target Post Types"
 msgstr "نوع‌ نوشته‌های هدف"
 
-#: src/Pmpr/Common/Cover/Comment/Setting.php:45
+#: src/Pmpr/Common/Cover/Comment/Setting.php:46
 msgid "Enable comment for selected post types."
 msgstr "نوع نوشته‌هایی که دیدگاه می‌پذیرند."
 
-#: src/Pmpr/Common/Cover/Comment/Setting.php:50
+#: src/Pmpr/Common/Cover/Comment/Setting.php:51
 msgid "Target Taxonomies"
 msgstr "طبقه‌بندی های هدف"
 
-#: src/Pmpr/Common/Cover/Comment/Setting.php:51
+#: src/Pmpr/Common/Cover/Comment/Setting.php:52
 msgid "Enable comment for selected taxonomies."
 msgstr "فعال کردن دیدگاه برای طبقه‌بندی های انتخابی."
 
-#: src/Pmpr/Common/Cover/Comment/Setting.php:56
+#: src/Pmpr/Common/Cover/Comment/Setting.php:57
+msgid "Correct Pagination"
+msgstr "اصلاح صفحه‌بندی"
+
+#: src/Pmpr/Common/Cover/Comment/Setting.php:58
+msgid ""
+"By checking this options, comments pagination start from newest to oldest"
+msgstr ""
+"با فعال‌کردن این گزینه، آیتم‌ها از تازه‌ترین به کهنه‌ترین در صفحه‌بندی دیدگاه‌ها "
+"نمایش داده می‌شود."
+
+#: src/Pmpr/Common/Cover/Comment/Setting.php:62
 msgid "Success Submission Message"
 msgstr "پیغام ثبت موفقیت آمیز"
 
-#: src/Pmpr/Common/Cover/Comment/Setting.php:58
+#: src/Pmpr/Common/Cover/Comment/Setting.php:64
 msgid "Your comment successfully submitted."
 msgstr "دیدگاه شما با موفقیت ثبت شد."
 
-#: src/Pmpr/Common/Cover/Comment/Setting.php:62
+#: src/Pmpr/Common/Cover/Comment/Setting.php:68
 #: src/Pmpr/Common/Cover/Widget/Taxonomy.php:80
 msgid "Collapsible"
 msgstr "قابلیت باز و بسته شدن"
 
-#: src/Pmpr/Common/Cover/Comment/Setting.php:63
+#: src/Pmpr/Common/Cover/Comment/Setting.php:69
 msgid "Make comment form collapsible"
 msgstr "قابلیت باز و بسته شدن فرم دیدگاه"
 
-#: src/Pmpr/Common/Cover/Comment/Setting.php:68
+#: src/Pmpr/Common/Cover/Comment/Setting.php:74
 msgid "Collapsible on Load"
 msgstr "بسته بودن هنگام بارگذاری صفحه"
 
-#: src/Pmpr/Common/Cover/Comment/Setting.php:69
+#: src/Pmpr/Common/Cover/Comment/Setting.php:75
 msgid "Make comment form collapsible after load page"
 msgstr "فرم نظرات در هنگام بارگذاری اولیه صفحه بسته خواهد بود"
 
-#: src/Pmpr/Common/Cover/Comment/Setting.php:73
+#: src/Pmpr/Common/Cover/Comment/Setting.php:79
 msgid "Sow Site Brand"
 msgstr "نمایش برند سایت"
 
-#: src/Pmpr/Common/Cover/Comment/Setting.php:74
+#: src/Pmpr/Common/Cover/Comment/Setting.php:80
 msgid "Show site brand for user with selected roles."
 msgstr "نمایش برند سایت برای نقش‌های کاربری انتخاب شده."
 
-#: src/Pmpr/Common/Cover/Comment/Setting.php:79
+#: src/Pmpr/Common/Cover/Comment/Setting.php:85
 msgid "Target Roles"
 msgstr "نقش‌های کاربری"
 
-#: src/Pmpr/Common/Cover/Comment/Setting.php:85
+#: src/Pmpr/Common/Cover/Comment/Setting.php:91
 msgid "Alternative Avatar"
 msgstr "آواتار جایگزین"
 
@@ -247,7 +258,7 @@ msgid "Logo"
 msgstr "لوگو"
 
 #: src/Pmpr/Common/Cover/Logo/Setting.php:29
-#: src/Pmpr/Common/Cover/Setting/Setting.php:243
+#: src/Pmpr/Common/Cover/Setting/Setting.php:235
 #: src/Pmpr/Common/Cover/Widget/Metadata.php:32
 msgid "Items"
 msgstr "آیتم‌ها‌"
@@ -256,7 +267,7 @@ msgstr "آیتم‌ها‌"
 #: src/Pmpr/Common/Cover/Search/Setting.php:62
 #: src/Pmpr/Common/Cover/Search/Setting.php:68
 #: src/Pmpr/Common/Cover/Setting/Setting.php:145
-#: src/Pmpr/Common/Cover/Setting/Setting.php:246
+#: src/Pmpr/Common/Cover/Setting/Setting.php:238
 #: src/Pmpr/Common/Cover/Widget/Post.php:40
 #: src/Pmpr/Common/Cover/Widget/Search.php:34
 #: src/Pmpr/Common/Cover/Widget/Taxonomy.php:43
@@ -290,7 +301,7 @@ msgstr "بزرگ"
 
 #: src/Pmpr/Common/Cover/Logo/Setting.php:43
 msgid "Default (As Fallback)"
-msgstr ""
+msgstr "پیش‌فرض (به عنوان گزینه جایگزین)"
 
 #: src/Pmpr/Common/Cover/Logo/Setting.php:45
 #: src/Pmpr/Common/Cover/Widget/Post.php:44
@@ -300,7 +311,7 @@ msgstr "نوع"
 
 #: src/Pmpr/Common/Cover/Logo/Setting.php:49
 #: src/Pmpr/Common/Cover/Setting/Setting.php:140
-#: src/Pmpr/Common/Cover/Setting/Setting.php:269
+#: src/Pmpr/Common/Cover/Setting/Setting.php:261
 msgid "Image"
 msgstr "تصویر"
 
@@ -419,19 +430,13 @@ msgstr "استثنائات افزایش سرعت"
 msgid "Choice posts from post type that you want to ignore from optimization"
 msgstr "صفحاتی که افزایش سرعت به آنها اعمال نمی‌شود"
 
-#: src/Pmpr/Common/Cover/Pagination/Custom.php:45
-#: src/Pmpr/Common/Cover/Pagination/Custom.php:97
+#: src/Pmpr/Common/Cover/Pagination/Custom.php:39
 msgid "Next"
 msgstr "بعدی"
 
-#: src/Pmpr/Common/Cover/Pagination/Custom.php:46
-#: src/Pmpr/Common/Cover/Pagination/Custom.php:64
+#: src/Pmpr/Common/Cover/Pagination/Custom.php:40
 msgid "Previous"
 msgstr "قبلی"
-
-#: src/Pmpr/Common/Cover/Pagination/Custom.php:47
-msgid "Current"
-msgstr "جاری"
 
 #: src/Pmpr/Common/Cover/Search/Frontend.php:147
 #: src/Pmpr/Common/Cover/Search/Setting.php:93
@@ -721,99 +726,87 @@ msgstr ""
 "را تغییر دهید"
 
 #: src/Pmpr/Common/Cover/Setting/Setting.php:226
-msgid "How Load Icons"
-msgstr "نحوه بارگذاری آیکون‌ها"
-
-#: src/Pmpr/Common/Cover/Setting/Setting.php:227
-msgid "Vector File"
-msgstr "فایل وکتوری"
-
-#: src/Pmpr/Common/Cover/Setting/Setting.php:228
-msgid "Web Font"
-msgstr "فونت وب"
-
-#: src/Pmpr/Common/Cover/Setting/Setting.php:234
 msgid "Icons URL"
 msgstr "لینک سرو مجموعه آیکون"
 
-#: src/Pmpr/Common/Cover/Setting/Setting.php:235
+#: src/Pmpr/Common/Cover/Setting/Setting.php:227
 msgid "Leave empty if you want use default icons url"
 msgstr "اگر می‌خواهید از لینک پیشفرض استفاده شود، این فیلد را خالی رها کنید"
 
-#: src/Pmpr/Common/Cover/Setting/Setting.php:239
+#: src/Pmpr/Common/Cover/Setting/Setting.php:231
 msgid "Licenses"
 msgstr "گواهی‌ها"
 
-#: src/Pmpr/Common/Cover/Setting/Setting.php:247
+#: src/Pmpr/Common/Cover/Setting/Setting.php:239
 msgid "Title of license to show on admin"
 msgstr "عنوان گواهی برای نمایش در بخش مدیریت"
 
-#: src/Pmpr/Common/Cover/Setting/Setting.php:251
+#: src/Pmpr/Common/Cover/Setting/Setting.php:243
 msgid "Display Method"
 msgstr "نوع نمایش"
 
-#: src/Pmpr/Common/Cover/Setting/Setting.php:252
+#: src/Pmpr/Common/Cover/Setting/Setting.php:244
 msgid "By Markup"
 msgstr "با مارکاپ"
 
-#: src/Pmpr/Common/Cover/Setting/Setting.php:253
+#: src/Pmpr/Common/Cover/Setting/Setting.php:245
 msgid "By Link & Image"
 msgstr "با پیوند و تصویر"
 
-#: src/Pmpr/Common/Cover/Setting/Setting.php:260
+#: src/Pmpr/Common/Cover/Setting/Setting.php:252
 #: src/Pmpr/Common/Cover/Widget/Link.php:20
 msgid "Link"
 msgstr "پیوند"
 
-#: src/Pmpr/Common/Cover/Setting/Setting.php:264
+#: src/Pmpr/Common/Cover/Setting/Setting.php:256
 msgid "Rel"
 msgstr "ویژگی rel"
 
-#: src/Pmpr/Common/Cover/Setting/Setting.php:274
+#: src/Pmpr/Common/Cover/Setting/Setting.php:266
 msgid "Markup"
 msgstr "مارکاپ"
 
-#: src/Pmpr/Common/Cover/Setting/Setting.php:275
+#: src/Pmpr/Common/Cover/Setting/Setting.php:267
 msgid "If you have a html markup of your license, put here to show it."
 msgstr "اگر برای گواهی‌تان مارکاپ HTML دارید، آن را در این بخش قرار دهید."
 
-#: src/Pmpr/Common/Cover/Setting/Setting.php:279
+#: src/Pmpr/Common/Cover/Setting/Setting.php:271
 msgid "Markup Image"
 msgstr "تصویر مارکاپ"
 
-#: src/Pmpr/Common/Cover/Setting/Setting.php:284
+#: src/Pmpr/Common/Cover/Setting/Setting.php:276
 msgid "Image Size"
 msgstr "اندازه تصویر"
 
-#: src/Pmpr/Common/Cover/Setting/Setting.php:290
+#: src/Pmpr/Common/Cover/Setting/Setting.php:282
 msgid "Image Width"
 msgstr "عرض تصویر"
 
-#: src/Pmpr/Common/Cover/Setting/Setting.php:295
+#: src/Pmpr/Common/Cover/Setting/Setting.php:287
 msgid "Image Height"
 msgstr "ارتفاع تصویر"
 
-#: src/Pmpr/Common/Cover/Setting/Setting.php:310
+#: src/Pmpr/Common/Cover/Setting/Setting.php:302
 msgid "Thin"
 msgstr "نازک"
 
-#: src/Pmpr/Common/Cover/Setting/Setting.php:311
+#: src/Pmpr/Common/Cover/Setting/Setting.php:303
 msgid "Light"
 msgstr "لایت"
 
-#: src/Pmpr/Common/Cover/Setting/Setting.php:312
+#: src/Pmpr/Common/Cover/Setting/Setting.php:304
 msgid "Regular"
 msgstr "معمولی"
 
-#: src/Pmpr/Common/Cover/Setting/Setting.php:313
+#: src/Pmpr/Common/Cover/Setting/Setting.php:305
 msgid "Solid"
 msgstr "ضخیم"
 
-#: src/Pmpr/Common/Cover/Setting/Setting.php:314
+#: src/Pmpr/Common/Cover/Setting/Setting.php:306
 msgid "Duotone"
 msgstr "دوتن"
 
-#: src/Pmpr/Common/Cover/Template.php:94
+#: src/Pmpr/Common/Cover/Template.php:130
 msgid "Your browser does not support HTML5 video."
 msgstr "مرورگر شما تگ ویدئوی HTML5  را پشتیبانی نمی کند."
 
@@ -1187,25 +1180,37 @@ msgstr "جستجوی محصول"
 msgid "Enable product simple search in backend area"
 msgstr "قعال سازی جستجوی ساده محصولات در بخش مدیریت سایت"
 
-#: src/Pmpr/Common/Cover/Woocommerce/Template.php:233
+#: src/Pmpr/Common/Cover/Woocommerce/Template.php:235
 msgid "&laquo; Previous"
 msgstr "&laquo; قبلی"
 
-#: src/Pmpr/Common/Cover/Woocommerce/Template.php:234
+#: src/Pmpr/Common/Cover/Woocommerce/Template.php:236
 msgid "Next &raquo;"
 msgstr "بعدی &raquo;"
 
-#: src/Pmpr/Common/Cover/Woocommerce/Woocommerce.php:278
+#: src/Pmpr/Common/Cover/Woocommerce/Woocommerce.php:292
 msgid "Thousands"
 msgstr "هزار"
 
-#: src/Pmpr/Common/Cover/Woocommerce/Woocommerce.php:279
+#: src/Pmpr/Common/Cover/Woocommerce/Woocommerce.php:293
 msgid "Millions"
 msgstr "میلیون"
 
-#: src/Pmpr/Common/Cover/Woocommerce/Woocommerce.php:280
+#: src/Pmpr/Common/Cover/Woocommerce/Woocommerce.php:294
 msgid "Billions"
 msgstr "میلیارد"
+
+#~ msgid "Current"
+#~ msgstr "جاری"
+
+#~ msgid "How Load Icons"
+#~ msgstr "نحوه بارگذاری آیکون‌ها"
+
+#~ msgid "Vector File"
+#~ msgstr "فایل وکتوری"
+
+#~ msgid "Web Font"
+#~ msgstr "فونت وب"
 
 #~ msgid "Sharp Thin"
 #~ msgstr "نازک با لبه تیز"
